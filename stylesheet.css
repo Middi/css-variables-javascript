@@ -1,0 +1,58 @@
+:root {
+    --base: rgba(68, 99, 226, 1.0);
+    --spacing: 10px;
+    --blur: 2px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
+
+
+/*
+  misc styles, nothing to do with CSS variables
+*/
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.controls {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.para {
+    width: 320px;
+    padding-bottom: 20px;
+}
+
+
+input {
+    width: 100px;
+}
+
+img {
+  width: 70%;
+  max-width: 960px;
+}
